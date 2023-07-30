@@ -5,7 +5,7 @@ const menu = [
     category: 'breakfast',
     fullPrice: 15.99,
     halfPrice: 15.99,
-    img: './images/item-1.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const menu = [
     category: 'lunch',
     fullPrice: 13.99,
     halfPrice: 13.99,
-    img: './images/item-2.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const menu = [
     category: 'shakes',
     fullPrice: 6.99,
     halfPrice: 6.99,
-    img: './images/item-3.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const menu = [
     category: 'breakfast',
     fullPrice: 20.99,
     halfPrice: 20.99,
-    img: './images/item-4.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const menu = [
     category: 'lunch',
     fullPrice: 22.99,
     halfPrice: 22.99,
-    img: './images/item-5.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ const menu = [
     category: 'shakes',
     fullPrice: 18.99,
     halfPrice: 18.99,
-    img: './images/item-6.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ const menu = [
     category: 'breakfast',
     fullPrice: 8.99,
     halfPrice: 8.99,
-    img: './images/item-7.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const menu = [
     category: 'lunch',
     fullPrice: 12.99,
     halfPrice: 12.99,
-    img: './images/item-8.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const menu = [
     category: 'shakes',
     fullPrice: 16.99,
     halfPrice: 16.99,
-    img: './images/item-9.jpeg',
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
 ];
 export default menu;
