@@ -31,6 +31,7 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  user-select: none;
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
