@@ -5,7 +5,7 @@ const menu = [
     category: 'Breakfast',
     fullPrice: 50,
     halfPrice: "N/A",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://pipingpotcurry.com/wp-content/uploads/2017/03/Vegetable-Sambar-Instant-Pot-Piping-Pot-Curry.jpg',
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const menu = [
     category: 'Breakfast',
     fullPrice: 15,
     halfPrice: "N/A",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg',
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ const menu = [
     category: 'Breakfast',
     fullPrice: 50,
     halfPrice: "N/A",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Medu_Vadas.JPG',
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const menu = [
     category: 'Breakfast',
     fullPrice: 30,
     halfPrice: "N/A",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://qph.cf2.quoracdn.net/main-qimg-723e4873eec1efceb97b9b5b87fb3143-lq',
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg',
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: "50 (8pcs.)",
     halfPrice: "30 (4pcs.)",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://timesrecipe.com/wp-content/uploads/2022/04/How-To-Make-Paneer-Momos-in-Hindi-Timesrecipe.com_.webp',
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: "60 (8pcs.)",
     halfPrice: "35 (4pcs.)",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://i.pinimg.com/originals/86/08/d1/8608d13519df60695bbac90b899be26b.jpg',
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: "40 (8pcs.)",
     halfPrice: "25 (4pcs.)",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2016/09/whole-wheat-veg-momos-recipe-1.jpg',
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: "50 (8pcs.)",
     halfPrice: "30 (4pcs.)",
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://b.zmtcdn.com/data/dish_photos/a22/8da8bb57b47add934d8558014f419a22.jpg',
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 90,
     halfPrice: 50,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375.jpg',
   },
   {
     id: 13,
@@ -101,15 +101,15 @@ const menu = [
     category: 'Chinese',
     fullPrice: 90,
     halfPrice: 50,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://40aprons.com/wp-content/uploads/2022/03/chicken-fried-rice-3.jpg',
   },
   {
     id: 14,
-    title: 'chowmine',
+    title: 'chowmein',
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://i.ytimg.com/vi/gbygXUDbf2Q/sddefault.jpg',
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://irhindi.in/wp-content/uploads/2023/03/red-sauce-pasta-recipe.jpg',
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.whiskaffair.com/wp-content/uploads/2021/05/White-Sauce-Paste-2-3.jpg',
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://thecozycook.com/wp-content/uploads/2022/07/Pink-Sauce-Pasta-f2.jpg',
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ const menu = [
     category: 'Chinese',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.licious.in/blog/wp-content/uploads/2021/11/Vegetable-Rolls.jpg',
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.potsandpans.in/cdn/shop/articles/12.jpg?v=1539863851',
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://letsdishrecipes.com/wp-content/uploads/2018/08/Southwest-Chicken-feature2-480x270.jpg',
   },
   {
     id: 21,
@@ -165,7 +165,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.melskitchencafe.com/wp-content/uploads/2008/06/crispy-chicken-wraps.jpg',
   },
   {
     id: 22,
@@ -173,7 +173,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://tiffinandteaofficial.com/wp-content/uploads/2020/04/IMG_5905-1-scaled.jpg',
   },
   {
     id: 23,
@@ -181,7 +181,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.foodie-trail.com/wp-content/uploads/2021/11/PHOTO-2021-10-17-19-52-29.jpg',
   },
   {
     id: 24,
@@ -189,7 +189,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.thecococompany.com/cdn/shop/products/Veg-Patty_grande.jpg?v=1578043022',
   },
   {
     id: 25,
@@ -197,7 +197,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.thecococompany.com/cdn/shop/products/PANEER_PUFF_1024x1024.jpg?v=1580715207',
   },
   {
     id: 26,
@@ -205,7 +205,7 @@ const menu = [
     category: 'Snacks',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://i.ytimg.com/vi/mktsEj82V2g/hqdefault.jpg?v=5b3c0c67',
   },
   {
     id: 27,
@@ -213,7 +213,7 @@ const menu = [
     category: 'Beverages',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://media.istockphoto.com/id/533575209/photo/soft-drink-being-poured-into-glass.jpg?s=612x612&w=0&k=20&c=OPfGgxIkH_6j-ozfWol5RxypTAIZSmkR3NL-qsJ7_Qk=',
   },
   {
     id: 28,
@@ -221,7 +221,7 @@ const menu = [
     category: 'Beverages',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://www.cookwithmanali.com/wp-content/uploads/2022/04/Cold-Coffee.jpg',
   },
   {
     id: 29,
@@ -229,7 +229,7 @@ const menu = [
     category: 'Beverages',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://5.imimg.com/data5/ML/OZ/NC/SELLER-39577706/black-current-500x500.jpg',
   },
   {
     id: 30,
@@ -237,7 +237,7 @@ const menu = [
     category: 'Beverages',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://tyberrymuch.com/wp-content/uploads/2021/11/butterscotch-milkshake-hero-recipe-735x735.jpg',
   },
   {
     id: 31,
@@ -245,7 +245,7 @@ const menu = [
     category: 'Beverages',
     fullPrice: 80,
     halfPrice: 40,
-    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+    img: 'https://tastesbetterfromscratch.com/wp-content/uploads/2021/06/Chocolate-Milkshake-5.jpg',
   },
 ];
 export default menu;
