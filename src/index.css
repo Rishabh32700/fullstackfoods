@@ -134,7 +134,6 @@ Menu
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-
 }
 .filter-btn {
   background: transparent;
@@ -157,6 +156,8 @@ Menu
   box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.5),
     inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6),
     inset 0px 11px 28px 0px rgb(29, 29, 29);
+  border: none;
+
   border-bottom: 1px solid red;
 }
 .section-center {
@@ -187,10 +188,9 @@ Menu
     inset 0px 11px 28px 0px rgb(29, 29, 29);
 }
 
-.item-info{
+.item-info {
   /* border:2px solid red; */
   width: 100%;
-
 }
 
 .item-info header {
@@ -199,17 +199,18 @@ Menu
   align-items: center;
   flex-direction: column;
   box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.5),
-  inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6),
-  inset 0px 11px 28px 0px rgb(29, 29, 29);
-padding: .5rem 1rem;
-border-bottom: 1px solid red;
+    inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6),
+    inset 0px 11px 28px 0px rgb(29, 29, 29);
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid red;
 }
 
-.item-info header div{
+.item-info header div {
   width: 100%;
   display: flex;
-  justify-content: space-around;
 
+  justify-content: space-around;
 }
 
 .item-info h4 {
