@@ -2,7 +2,7 @@ const menu = [
   {
     id: 1,
     title: 'buttermilk pancakes',
-    category: 'breakfast',
+    category: 'Breakfast',
     fullPrice: 15.99,
     halfPrice: 15.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -10,7 +10,7 @@ const menu = [
   {
     id: 2,
     title: 'diner double',
-    category: 'lunch',
+    category: 'Chinese',
     fullPrice: 13.99,
     halfPrice: 13.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -18,7 +18,7 @@ const menu = [
   {
     id: 3,
     title: 'godzilla milkshake',
-    category: 'shakes',
+    category: 'Snacks',
     fullPrice: 6.99,
     halfPrice: 6.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -26,7 +26,7 @@ const menu = [
   {
     id: 4,
     title: 'country delight',
-    category: 'breakfast',
+    category: 'Beverages',
     fullPrice: 20.99,
     halfPrice: 20.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -34,7 +34,7 @@ const menu = [
   {
     id: 5,
     title: 'egg attack',
-    category: 'lunch',
+    category: 'Breakfast',
     fullPrice: 22.99,
     halfPrice: 22.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -42,7 +42,7 @@ const menu = [
   {
     id: 6,
     title: 'oreo dream',
-    category: 'shakes',
+    category: 'Chinese',
     fullPrice: 18.99,
     halfPrice: 18.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -50,7 +50,7 @@ const menu = [
   {
     id: 7,
     title: 'bacon overflow',
-    category: 'breakfast',
+    category: 'Snacks',
     fullPrice: 8.99,
     halfPrice: 8.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -58,7 +58,7 @@ const menu = [
   {
     id: 8,
     title: 'american classic',
-    category: 'lunch',
+    category: 'Beverages',
     fullPrice: 12.99,
     halfPrice: 12.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
@@ -66,7 +66,15 @@ const menu = [
   {
     id: 9,
     title: 'quarantine buddy',
-    category: 'shakes',
+    category: 'Breakfast',
+    fullPrice: 16.99,
+    halfPrice: 16.99,
+    img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
+  },
+  {
+    id: 9,
+    title: 'quarantine buddy',
+    category: 'Chinese',
     fullPrice: 16.99,
     halfPrice: 16.99,
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
