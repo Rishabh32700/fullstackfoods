@@ -12,8 +12,8 @@ const Menu = ({ items }) => {
               <header>
                 <h4>{title}</h4>
                 <div>
-                  <h4 className="price">Full ₹{fullPrice}</h4>
-                  <h4 className="price">Half ₹{halfPrice}</h4>
+                  <h4 className="price">{fullPrice}</h4>
+                  {halfPrice && <h4 className="price">{halfPrice}</h4>}
                 </div>
               </header>
               {/* <p className="item-text">{desc}</p> */}
