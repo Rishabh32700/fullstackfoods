@@ -33,6 +33,14 @@ const menu = [
   },
   {
     id: 5,
+    title: 'chole bhature',
+    category: 'Breakfast',
+    fullPrice: 30,
+    halfPrice: "N/A",
+    img: 'https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg',
+  },
+  {
+    id: 6,
     title: 'chilli potato',
     category: 'Chinese',
     fullPrice: 90,
@@ -40,7 +48,7 @@ const menu = [
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
-    id: 6,
+    id: 7,
     title: 'honey chilli potato',
     category: 'Chinese',
     fullPrice: 90,
@@ -48,7 +56,7 @@ const menu = [
     img: 'https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg',
   },
   {
-    id: 7,
+    id: 8,
     title: 'french fries',
     category: 'Chinese',
     fullPrice: 80,
@@ -56,7 +64,7 @@ const menu = [
     img: 'https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg',
   },
   {
-    id: 8,
+    id: 9,
     title: 'paneer momos (steam)',
     category: 'Chinese',
     fullPrice: "50 (8pcs.)",
@@ -64,7 +72,7 @@ const menu = [
     img: 'https://timesrecipe.com/wp-content/uploads/2022/04/How-To-Make-Paneer-Momos-in-Hindi-Timesrecipe.com_.webp',
   },
   {
-    id: 9,
+    id: 10,
     title: 'paneer momos (fried)',
     category: 'Chinese',
     fullPrice: "60 (8pcs.)",
@@ -72,7 +80,7 @@ const menu = [
     img: 'https://i.pinimg.com/originals/86/08/d1/8608d13519df60695bbac90b899be26b.jpg',
   },
   {
-    id: 10,
+    id: 11,
     title: 'veg momos (steam)',
     category: 'Chinese',
     fullPrice: "40 (8pcs.)",
@@ -80,7 +88,7 @@ const menu = [
     img: 'https://www.vegrecipesofindia.com/wp-content/uploads/2016/09/whole-wheat-veg-momos-recipe-1.jpg',
   },
   {
-    id: 11,
+    id: 12,
     title: 'veg momos (fried)',
     category: 'Chinese',
     fullPrice: "50 (8pcs.)",
@@ -88,7 +96,7 @@ const menu = [
     img: 'https://b.zmtcdn.com/data/dish_photos/a22/8da8bb57b47add934d8558014f419a22.jpg',
   },
   {
-    id: 12,
+    id: 13,
     title: 'manchurian',
     category: 'Chinese',
     fullPrice: 90,
@@ -96,7 +104,7 @@ const menu = [
     img: 'https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375.jpg',
   },
   {
-    id: 13,
+    id: 14,
     title: 'fried rice',
     category: 'Chinese',
     fullPrice: 90,
@@ -104,7 +112,7 @@ const menu = [
     img: 'https://40aprons.com/wp-content/uploads/2022/03/chicken-fried-rice-3.jpg',
   },
   {
-    id: 14,
+    id: 15,
     title: 'chowmein',
     category: 'Chinese',
     fullPrice: 80,
@@ -112,7 +120,7 @@ const menu = [
     img: 'https://i.ytimg.com/vi/gbygXUDbf2Q/sddefault.jpg',
   },
   {
-    id: 15,
+    id: 16,
     title: 'red sauce pasta',
     category: 'Chinese',
     fullPrice: 80,
@@ -120,7 +128,7 @@ const menu = [
     img: 'https://irhindi.in/wp-content/uploads/2023/03/red-sauce-pasta-recipe.jpg',
   },
   {
-    id: 16,
+    id: 17,
     title: 'white sauce pasta',
     category: 'Chinese',
     fullPrice: 80,
@@ -128,7 +136,7 @@ const menu = [
     img: 'https://www.whiskaffair.com/wp-content/uploads/2021/05/White-Sauce-Paste-2-3.jpg',
   },
   {
-    id: 17,
+    id: 18,
     title: 'mix sauce pasta',
     category: 'Chinese',
     fullPrice: 80,
@@ -136,7 +144,7 @@ const menu = [
     img: 'https://thecozycook.com/wp-content/uploads/2022/07/Pink-Sauce-Pasta-f2.jpg',
   },
   {
-    id: 18,
+    id: 19,
     title: 'spring roll',
     category: 'Chinese',
     fullPrice: 80,
@@ -144,7 +152,15 @@ const menu = [
     img: 'https://www.licious.in/blog/wp-content/uploads/2021/11/Vegetable-Rolls.jpg',
   },
   {
-    id: 19,
+    id: 20,
+    title: 'chilli paneer',
+    category: 'Chinese',
+    fullPrice: 80,
+    halfPrice: 40,
+    img: 'https://rumkisgoldenspoon.com/wp-content/uploads/2021/04/Chilli-paneer-dry.jpg',
+  },
+  {
+    id: 21,
     title: 'pizza roll',
     category: 'Snacks',
     fullPrice: 80,
@@ -152,7 +168,7 @@ const menu = [
     img: 'https://www.potsandpans.in/cdn/shop/articles/12.jpg?v=1539863851',
   },
   {
-    id: 20,
+    id: 22,
     title: 'pasta roll',
     category: 'Snacks',
     fullPrice: 80,
@@ -160,7 +176,7 @@ const menu = [
     img: 'https://letsdishrecipes.com/wp-content/uploads/2018/08/Southwest-Chicken-feature2-480x270.jpg',
   },
   {
-    id: 21,
+    id: 23,
     title: 'cheese roll',
     category: 'Snacks',
     fullPrice: 80,
@@ -168,7 +184,7 @@ const menu = [
     img: 'https://www.melskitchencafe.com/wp-content/uploads/2008/06/crispy-chicken-wraps.jpg',
   },
   {
-    id: 22,
+    id: 24,
     title: 'maxican roll',
     category: 'Snacks',
     fullPrice: 80,
@@ -176,7 +192,7 @@ const menu = [
     img: 'https://tiffinandteaofficial.com/wp-content/uploads/2020/04/IMG_5905-1-scaled.jpg',
   },
   {
-    id: 23,
+    id: 25,
     title: 'sandwich',
     category: 'Snacks',
     fullPrice: 80,
@@ -184,7 +200,7 @@ const menu = [
     img: 'https://www.foodie-trail.com/wp-content/uploads/2021/11/PHOTO-2021-10-17-19-52-29.jpg',
   },
   {
-    id: 24,
+    id: 26,
     title: 'veg patty',
     category: 'Snacks',
     fullPrice: 80,
@@ -192,7 +208,7 @@ const menu = [
     img: 'https://www.thecococompany.com/cdn/shop/products/Veg-Patty_grande.jpg?v=1578043022',
   },
   {
-    id: 25,
+    id: 27,
     title: 'paneer patty',
     category: 'Snacks',
     fullPrice: 80,
@@ -200,7 +216,7 @@ const menu = [
     img: 'https://www.thecococompany.com/cdn/shop/products/PANEER_PUFF_1024x1024.jpg?v=1580715207',
   },
   {
-    id: 26,
+    id: 28,
     title: 'pizza ring',
     category: 'Snacks',
     fullPrice: 80,
@@ -208,7 +224,7 @@ const menu = [
     img: 'https://i.ytimg.com/vi/mktsEj82V2g/hqdefault.jpg?v=5b3c0c67',
   },
   {
-    id: 27,
+    id: 29,
     title: 'cold drinks',
     category: 'Beverages',
     fullPrice: 80,
@@ -216,7 +232,7 @@ const menu = [
     img: 'https://media.istockphoto.com/id/533575209/photo/soft-drink-being-poured-into-glass.jpg?s=612x612&w=0&k=20&c=OPfGgxIkH_6j-ozfWol5RxypTAIZSmkR3NL-qsJ7_Qk=',
   },
   {
-    id: 28,
+    id: 30,
     title: 'cold coffee',
     category: 'Beverages',
     fullPrice: 80,
@@ -224,7 +240,7 @@ const menu = [
     img: 'https://www.cookwithmanali.com/wp-content/uploads/2022/04/Cold-Coffee.jpg',
   },
   {
-    id: 29,
+    id: 31,
     title: 'black current shake',
     category: 'Beverages',
     fullPrice: 80,
@@ -232,7 +248,7 @@ const menu = [
     img: 'https://5.imimg.com/data5/ML/OZ/NC/SELLER-39577706/black-current-500x500.jpg',
   },
   {
-    id: 30,
+    id: 32,
     title: 'butterscotch shake',
     category: 'Beverages',
     fullPrice: 80,
@@ -240,7 +256,7 @@ const menu = [
     img: 'https://tyberrymuch.com/wp-content/uploads/2021/11/butterscotch-milkshake-hero-recipe-735x735.jpg',
   },
   {
-    id: 31,
+    id: 33,
     title: 'chocolate shake',
     category: 'Beverages',
     fullPrice: 80,
