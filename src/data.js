@@ -186,7 +186,7 @@ const menu = [
     title: "maggie",
     category: "Snacks",
     fullPrice: "₹40",
-    img: "https://i.ytimg.com/vi/mktsEj82V2g/hqdefault.jpg?v=5b3c0c67",
+    img: "https://3.bp.blogspot.com/-42ydTiZKNU4/WGXWVFFbj9I/AAAAAAAAAmg/h7MtcbM9EegJ0BFJdvGSUd-2Cr4xg-H1wCLcB/s1600/1-89.jpg",
   },
 
   // snacks ends here
