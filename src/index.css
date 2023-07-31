@@ -7,7 +7,7 @@ Variables
 :root {
   --clr-grey-1: hsl(0, 0%, 100%);
   --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-white: #1c1c1c;
+  --clr-white: #121212;
   --clr-gold: #c5aa5f;
 
   --transition: all 0.3s linear;
