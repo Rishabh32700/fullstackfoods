@@ -1,4 +1,29 @@
 const menu = [
+  // lunch starts here
+  {
+    id: 44,
+    title: "aaloo puri",
+    category: "Lunch",
+    fullPrice: "₹40/plate",
+    img: "https://www.manjulaskitchen.com/wp-content/uploads/aloo_puri.jpg",
+  },
+  {
+    id: 45,
+    title: "chole puri",
+    category: "Lunch",
+    fullPrice: "₹40/plate",
+    img: "https://i.ytimg.com/vi/kzhp3bSwf1U/hqdefault.jpg",
+  },
+  {
+    id: 46,
+    title: "chole chawal",
+    category: "Lunch",
+    fullPrice: "₹40/plate",
+    img: "https://i.pinimg.com/474x/40/7d/dd/407ddd677e8785a9e92ae26460cc7829.jpg",
+  },
+  // lunch ends here
+  // -------------------------------------------------------------------------------------------------------
+  // -------------------------------------------------------------------------------------------------------
   // chinese starts here
   {
     id: 6,
@@ -188,6 +213,27 @@ const menu = [
     fullPrice: "₹40",
     img: "https://3.bp.blogspot.com/-42ydTiZKNU4/WGXWVFFbj9I/AAAAAAAAAmg/h7MtcbM9EegJ0BFJdvGSUd-2Cr4xg-H1wCLcB/s1600/1-89.jpg",
   },
+  {
+    id: 41,
+    title: "samose",
+    category: "Snacks",
+    fullPrice: "₹15",
+    img: "https://images.slurrp.com/webstories/wp-content/uploads/2022/08/24152604/cropped-samosa.jpeg",
+  },
+  {
+    id: 42,
+    title: "bread pakode",
+    category: "Snacks",
+    fullPrice: "₹15",
+    img: "https://www.vegrecipesofindia.com/wp-content/uploads/2010/08/bread-pakora-recipe.jpg",
+  },
+  {
+    id: 43,
+    title: "bedmi puri",
+    category: "Snacks",
+    fullPrice: "₹40/plate",
+    img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Farrukh_Aziz_Ansari/Bedmi_Poori.jpg",
+  },
 
   // snacks ends here
   // -------------------------------------------------------------------------------------------------------
@@ -318,7 +364,7 @@ const menu = [
   {
     id: 5,
     title: "chole bhature",
-    category: "Breakfast",
+    category: "Lunch",
     fullPrice: "comming Soon...",
     // fullPrice: "₹40 (2pcs.)",
     img: "https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg",
