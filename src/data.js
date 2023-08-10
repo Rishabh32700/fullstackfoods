@@ -1,4 +1,11 @@
 const menu = [
+  {
+    id: 100,
+    title: "masala Chai",
+    category: "Beverages",
+    fullPrice: "₹10/cup",
+    img: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
+  },
   // lunch starts here
   {
     id: 44,
@@ -230,7 +237,7 @@ const menu = [
   {
     id: 43,
     title: "bedmi puri",
-    category: "Snacks",
+    category: "Lunch",
     fullPrice: "₹40/plate",
     img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Farrukh_Aziz_Ansari/Bedmi_Poori.jpg",
   },
@@ -355,10 +362,10 @@ const menu = [
   },
   {
     id: 4,
-    title: "chole kulche",
+    title: "butter chole kulche",
     category: "Breakfast",
-    fullPrice: "comming Soon...",
-    // fullPrice: "₹30 (2pcs.)",
+    // fullPrice: "comming Soon...",
+    fullPrice: "₹30 (2pcs.)",
     img: "https://qph.cf2.quoracdn.net/main-qimg-723e4873eec1efceb97b9b5b87fb3143-lq",
   },
   {
