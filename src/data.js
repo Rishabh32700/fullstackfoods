@@ -1,9 +1,17 @@
 const menu = [
   {
+    id: 101,
+    title: "Healthy Diet (Sprouts)",
+    category: "Beverages",
+    fullPrice: "₹50 (Full)",
+    halfPrice: "₹30 (Half)",
+    img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
+  },
+  {
     id: 100,
     title: "masala Chai",
     category: "Beverages",
-    fullPrice: "₹10/cup",
+    fullPrice: "₹15/cup",
     img: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
   },
   // lunch starts here
@@ -92,7 +100,7 @@ const menu = [
     id: 13,
     title: "manchurian",
     category: "Chinese",
-    fullPrice: "₹90 (Full)",
+    fullPrice: "₹80 (Full)",
     halfPrice: "₹50 (Half)",
     img: "https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375.jpg",
   },
@@ -148,7 +156,8 @@ const menu = [
     id: 20,
     title: "chilli paneer",
     category: "Chinese",
-    fullPrice: "₹60",
+    fullPrice: "₹120 (Full)",
+    halfPrice: "₹60 (Half)",
     img: "https://rumkisgoldenspoon.com/wp-content/uploads/2021/04/Chilli-paneer-dry.jpg",
   },
 
@@ -306,7 +315,7 @@ const menu = [
     id: 37,
     title: "mango ice-cream",
     category: "IceCream",
-    fullPrice: "₹20 (single scoop)",
+    fullPrice: "₹25 (single scoop)",
     img: "https://www.funfoodfrolic.com/wp-content/uploads/2020/04/Mango-Ice-Cream-Thumbnail.jpg",
   },
   {
@@ -320,7 +329,7 @@ const menu = [
     id: 39,
     title: "vanilla ice-cream",
     category: "IceCream",
-    fullPrice: "₹20 (single scoop)",
+    fullPrice: "₹25 (single scoop)",
     img: "https://thebusybaker.ca/wp-content/uploads/2019/05/best-ever-no-churn-vanilla-ice-cream-fb-ig-2.jpg",
   },
   {
@@ -365,7 +374,7 @@ const menu = [
     title: "butter chole kulche",
     category: "Breakfast",
     // fullPrice: "comming Soon...",
-    fullPrice: "₹30 (2pcs.)",
+    fullPrice: "₹40 (2pcs.)",
     img: "https://qph.cf2.quoracdn.net/main-qimg-723e4873eec1efceb97b9b5b87fb3143-lq",
   },
   {
