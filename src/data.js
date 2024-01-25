@@ -68,7 +68,15 @@ const menu = [
     title: "french fries",
     category: "Chinese",
     fullPrice: "₹80 (Full)",
-    halfPrice: "₹40 (Half)",
+    halfPrice: "₹50 (Half)",
+    img: "https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg",
+  },
+  {
+    id: 1118,
+    title: "peri peri french fries",
+    category: "Chinese",
+    fullPrice: "₹90 (Full)",
+    halfPrice: "₹60 (Half)",
     img: "https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg",
   },
   {
