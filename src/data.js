@@ -1,54 +1,27 @@
 const menu = [
-  // {
-  //   id: 101,
-  //   title: "Healthy Diet (Sprouts)",
-  //   category: "Beverages",
-  //   fullPrice: "₹50 (Full)",
-  //   halfPrice: "₹30 (Half)",
-  //   img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
-  // },
   {
-    id: 100,
+    id: 1,
     title: "masala Chai",
     category: "Beverages",
-    fullPrice: "₹15/cup",
+    fullPrice: "₹15/- cup",
     img: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
   },
   {
-    id: 100,
+    id: 2,
     title: "hot coffee",
     category: "Beverages",
-    fullPrice: "₹30/cup",
+    fullPrice: "₹30/- cup",
     img: "https://getwallpapers.com/wallpaper/full/a/8/4/1040113-free-coffee-cup-wallpaper-2560x1600-for-ipad.jpg",
   },
-  // lunch starts here
-  // {
-  //   id: 44,
-  //   title: "aaloo puri",
-  //   category: "Lunch",
-  //   fullPrice: "₹40/plate",
-  //   img: "https://www.manjulaskitchen.com/wp-content/uploads/aloo_puri.jpg",
-  // },
-  // {
-  //   id: 45,
-  //   title: "chole puri",
-  //   category: "Lunch",
-  //   fullPrice: "₹40/plate",
-  //   img: "https://i.ytimg.com/vi/kzhp3bSwf1U/hqdefault.jpg",
-  // },
   {
-    id: 46,
+    id: 3,
     title: "chole/rajma chawal",
     category: "Lunch",
-    fullPrice: "₹60/plate",
+    fullPrice: "₹60/- plate",
     img: "https://i.pinimg.com/474x/40/7d/dd/407ddd677e8785a9e92ae26460cc7829.jpg",
   },
-  // lunch ends here
-  // -------------------------------------------------------------------------------------------------------
-  // -------------------------------------------------------------------------------------------------------
-  // chinese starts here
   {
-    id: 6,
+    id: 4,
     title: "chilli potato",
     category: "Chinese",
     fullPrice: "₹90 (Full)",
@@ -56,7 +29,7 @@ const menu = [
     img: "https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg",
   },
   {
-    id: 7,
+    id: 5,
     title: "honey chilli potato",
     category: "Chinese",
     fullPrice: "₹100 (Full)",
@@ -64,7 +37,7 @@ const menu = [
     img: "https://rakskitchen.net/wp-content/uploads/2022/07/honey-chilli.jpg",
   },
   {
-    id: 8,
+    id: 6,
     title: "french fries",
     category: "Chinese",
     fullPrice: "₹80 (Full)",
@@ -72,7 +45,7 @@ const menu = [
     img: "https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg",
   },
   {
-    id: 1118,
+    id: 7,
     title: "peri peri french fries",
     category: "Chinese",
     fullPrice: "₹90 (Full)",
@@ -80,7 +53,7 @@ const menu = [
     img: "https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg",
   },
   {
-    id: 1119,
+    id: 8,
     title: "cheesy potato stick",
     category: "Chinese",
     fullPrice: "₹80 (Full)",
@@ -183,12 +156,6 @@ const menu = [
     halfPrice: "₹60 (Half)",
     img: "https://rumkisgoldenspoon.com/wp-content/uploads/2021/04/Chilli-paneer-dry.jpg",
   },
-
-  // chinese ends here
-  // -------------------------------------------------------------------------------------------------------
-  // -------------------------------------------------------------------------------------------------------
-  // snacks starts here
-
   {
     id: 21,
     title: "paneer roll",
@@ -217,204 +184,132 @@ const menu = [
     fullPrice: "₹40",
     img: "https://tiffinandteaofficial.com/wp-content/uploads/2020/04/IMG_5905-1-scaled.jpg",
   },
-  // {
-  //   id: 25,
-  //   title: "sandwich",
-  //   category: "Snacks",
-  //   fullPrice: "₹30",
-  //   img: "https://www.foodie-trail.com/wp-content/uploads/2021/11/PHOTO-2021-10-17-19-52-29.jpg",
-  // },
-  // {
-  //   id: 26,
-  //   title: "veg patty",
-  //   category: "Snacks",
-  //   fullPrice: "₹20",
-  //   img: "https://www.thecococompany.com/cdn/shop/products/Veg-Patty_grande.jpg?v=1578043022",
-  // },
-  // {
-  //   id: 27,
-  //   title: "paneer patty",
-  //   category: "Snacks",
-  //   fullPrice: "₹30",
-  //   img: "https://www.thecococompany.com/cdn/shop/products/PANEER_PUFF_1024x1024.jpg?v=1580715207",
-  // },
-  // {
-  //   id: 28,
-  //   title: "pizza ring",
-  //   category: "Snacks",
-  //   fullPrice: "₹70",
-  //   img: "https://i.ytimg.com/vi/mktsEj82V2g/hqdefault.jpg?v=5b3c0c67",
-  // },
   {
-    id: 29,
+    id: 25,
     title: "maggie",
     category: "Snacks",
     fullPrice: "₹40",
     img: "https://3.bp.blogspot.com/-42ydTiZKNU4/WGXWVFFbj9I/AAAAAAAAAmg/h7MtcbM9EegJ0BFJdvGSUd-2Cr4xg-H1wCLcB/s1600/1-89.jpg",
   },
-  // {
-  //   id: 41,
-  //   title: "samose",
-  //   category: "Snacks",
-  //   fullPrice: "₹15",
-  //   img: "https://images.slurrp.com/webstories/wp-content/uploads/2022/08/24152604/cropped-samosa.jpeg",
-  // },
-  // {
-  //   id: 42,
-  //   title: "bread pakode",
-  //   category: "Snacks",
-  //   fullPrice: "₹15",
-  //   img: "https://www.vegrecipesofindia.com/wp-content/uploads/2010/08/bread-pakora-recipe.jpg",
-  // },
-  // {
-  //   id: 43,
-  //   title: "bedmi puri",
-  //   category: "Lunch",
-  //   fullPrice: "₹40/plate",
-  //   img: "https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Farrukh_Aziz_Ansari/Bedmi_Poori.jpg",
-  // },
-
-  // snacks ends here
-  // -------------------------------------------------------------------------------------------------------
-  // -------------------------------------------------------------------------------------------------------
-  // beverages starts here
-
   {
-    id: 30,
+    id: 26,
     title: "cold drinks",
     category: "Beverages",
     fullPrice: "MRP",
     img: "https://media.istockphoto.com/id/533575209/photo/soft-drink-being-poured-into-glass.jpg?s=612x612&w=0&k=20&c=OPfGgxIkH_6j-ozfWol5RxypTAIZSmkR3NL-qsJ7_Qk=",
   },
   {
-    id: 31,
+    id: 27,
     title: "cold coffee",
     category: "Beverages",
     fullPrice: "₹50",
     img: "https://www.cookwithmanali.com/wp-content/uploads/2022/04/Cold-Coffee.jpg",
   },
   {
-    id: 32,
+    id: 28,
     title: "black current shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://5.imimg.com/data5/ML/OZ/NC/SELLER-39577706/black-current-500x500.jpg",
   },
   {
-    id: 33,
+    id: 29,
     title: "butterscotch shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://tyberrymuch.com/wp-content/uploads/2021/11/butterscotch-milkshake-hero-recipe-735x735.jpg",
   },
   {
-    id: 34,
+    id: 30,
     title: "chocolate shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://www.cambiati.com/wp-content/uploads/2014/03/Chocolate-shake-96907264-scaled.jpeg",
   },
   {
-    id: 35,
+    id: 31,
     title: "pineapple shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://healthytasteoflife.com/wp-content/uploads/2021/05/pineapple-milkshake-dairy-free-1024x1536.jpg",
   },
   {
-    id: 36,
+    id: 32,
     title: "mango shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://www.eastcoastdaily.in/wp-content/uploads/2018/10/mango-milkshake.jpg",
   },
   {
-    id: 1136,
+    id: 33,
     title: "oreo shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://www.mojapasjasmaku.pl/wp-content/uploads/2014/06/1-2-.jpg",
   },
-
-  // beverages ends here
-  // -------------------------------------------------------------------------------------------------------
-  // -------------------------------------------------------------------------------------------------------
-  // ice-cream starts here
-
   {
-    id: 37,
+    id: 34,
     title: "mango ice-cream",
     category: "IceCream",
     fullPrice: "₹25 (single scoop)",
     img: "https://www.funfoodfrolic.com/wp-content/uploads/2020/04/Mango-Ice-Cream-Thumbnail.jpg",
   },
   {
-    id: 38,
+    id: 35,
     title: "chocolate ice-cream",
     category: "IceCream",
     fullPrice: "₹25 (single scoop)",
     img: "https://ashleemarie.com/wp-content/uploads/2014/02/homemade-chocolate-ice-cream-recipe.jpg",
   },
   {
-    id: 39,
+    id: 36,
     title: "vanilla ice-cream",
     category: "IceCream",
     fullPrice: "₹25 (single scoop)",
     img: "https://thebusybaker.ca/wp-content/uploads/2019/05/best-ever-no-churn-vanilla-ice-cream-fb-ig-2.jpg",
   },
   {
-    id: 40,
+    id: 37,
     title: "butterscotch ice-cream",
     category: "IceCream",
     fullPrice: "₹25 (single scoop)",
     img: "https://images.herzindagi.info/image/2020/Apr/butterscotch-ice-cream-recipe-two.jpg",
   },
-
-  // ice-cream ends here
-  // -------------------------------------------------------------------------------------------------------
-  // -------------------------------------------------------------------------------------------------------
-  // breakfast starts here
-
-  // {
-  //   id: 1,
-  //   title: "idli sambar",
-  //   category: "Breakfast",
-  //   fullPrice: "comming Soon...",
-  //   // fullPrice: "₹40 (2pcs.)",
-  //   img: "https://pipingpotcurry.com/wp-content/uploads/2017/03/Vegetable-Sambar-Instant-Pot-Piping-Pot-Curry.jpg",
-  // },
-  // {
-  //   id: 2,
-  //   title: "samosa",
-  //   category: "Breakfast",
-  //   fullPrice: "₹15",
-  //   img: "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg",
-  // },
-  // {
-  //   id: 3,
-  //   title: "vada",
-  //   category: "Breakfast",
-  //   fullPrice: "comming Soon...",
-  //   // fullPrice: "₹50 (2pcs.)",
-  //   // halfPrice: "N/A",
-  //   img: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Medu_Vadas.JPG",
-  // },
-  // {
-  //   id: 4,
-  //   title: "butter chole kulche",
-  //   category: "Breakfast",
-  //   // fullPrice: "comming Soon...",
-  //   fullPrice: "₹40 (2pcs.)",
-  //   img: "https://qph.cf2.quoracdn.net/main-qimg-723e4873eec1efceb97b9b5b87fb3143-lq",
-  // },
-  // {
-  //   id: 5,
-  //   title: "chole bhature",
-  //   category: "Lunch",
-  //   fullPrice: "comming Soon...",
-  //   // fullPrice: "₹40 (2pcs.)",
-  //   img: "https://media.vogue.in/wp-content/uploads/2020/08/chole-bhature-recipe.jpg",
-  // },
-  // breakfast ends here
+  {
+    id: 38,
+    title: "soup",
+    category: "Beverages",
+    fullPrice: "₹30/- cup",
+    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
+  },
+  {
+    id: 39,
+    title: "vegetable gratin",
+    category: "Healthy Snacks",
+    fullPrice: "₹30/- ",
+    img: "https://www.lifeberrys.com/img/article/vegetable-au-gratin-1625249706-lb.jpg",
+  },
+  {
+    id: 40,
+    title: "masala oats",
+    category: "Healthy Snacks",
+    fullPrice: "₹40/- plate",
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2021/05/masala-oats.jpg",
+  },
+  {
+    id: 41,
+    title: "soup",
+    category: "Healthy Snacks",
+    fullPrice: "₹30/- cup",
+    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
+  },
+  {
+    id: 42,
+    title: "upma",
+    category: "Healthy Snacks",
+    fullPrice: "₹40/- plate",
+    img: "https://fthmb.tqn.com/RPjDuPB78ppY70JBor_7t2DTpdY=/2569x1945/filters:fill(auto,1)/upma-56a510633df78cf772862b9b.jpg",
+  },
 ];
+
 export default menu;
