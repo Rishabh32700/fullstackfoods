@@ -1,12 +1,12 @@
 const menu = [
-  // {
-  //   id: 101,
-  //   title: "Healthy Diet (Sprouts)",
-  //   category: "Beverages",
-  //   fullPrice: "₹50 (Full)",
-  //   halfPrice: "₹30 (Half)",
-  //   img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
-  // },
+  {
+    id: 101,
+    title: "Healthy Diet (Sprouts)",
+    category: "Beverages",
+    fullPrice: "₹50 (Full)",
+    halfPrice: "₹30 (Half)",
+    img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
+  },
   {
     id: 100,
     title: "masala Chai",
