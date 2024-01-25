@@ -80,6 +80,14 @@ const menu = [
     img: "https://c.ndtvimg.com/2020-06/m7ngt6ho_french-fries_625x300_18_June_20.jpg",
   },
   {
+    id: 1119,
+    title: "cheesy potato stick",
+    category: "Chinese",
+    fullPrice: "₹80 (Full)",
+    halfPrice: "₹50 (Half)",
+    img: "https://aartimadan.com/wp-content/uploads/2023/04/Cheesy-Potato-Bread-Sticks.jpg",
+  },
+  {
     id: 9,
     title: "paneer momos (steam)",
     category: "Chinese",
@@ -316,6 +324,13 @@ const menu = [
   {
     id: 36,
     title: "mango shake",
+    category: "Beverages",
+    fullPrice: "₹80 (Thick)",
+    img: "https://www.eastcoastdaily.in/wp-content/uploads/2018/10/mango-milkshake.jpg",
+  },
+  {
+    id: 1136,
+    title: "oreo shake",
     category: "Beverages",
     fullPrice: "₹80 (Thick)",
     img: "https://www.eastcoastdaily.in/wp-content/uploads/2018/10/mango-milkshake.jpg",
