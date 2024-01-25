@@ -1,5 +1,40 @@
 const menu = [
   {
+    id: 38,
+    title: "soup",
+    category: "Beverages",
+    fullPrice: "₹30/- cup",
+    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
+  },
+  {
+    id: 39,
+    title: "vegetable gratin",
+    category: "Healthy Snacks",
+    fullPrice: "₹30/- ",
+    img: "https://www.lifeberrys.com/img/article/vegetable-au-gratin-1625249706-lb.jpg",
+  },
+  {
+    id: 40,
+    title: "masala oats",
+    category: "Healthy Snacks",
+    fullPrice: "₹40/- plate",
+    img: "https://www.indianveggiedelight.com/wp-content/uploads/2021/05/masala-oats.jpg",
+  },
+  {
+    id: 41,
+    title: "soup",
+    category: "Healthy Snacks",
+    fullPrice: "₹30/- cup",
+    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
+  },
+  {
+    id: 42,
+    title: "upma",
+    category: "Healthy Snacks",
+    fullPrice: "₹40/- plate",
+    img: "https://fthmb.tqn.com/RPjDuPB78ppY70JBor_7t2DTpdY=/2569x1945/filters:fill(auto,1)/upma-56a510633df78cf772862b9b.jpg",
+  },
+  {
     id: 1,
     title: "masala Chai",
     category: "Beverages",
@@ -275,41 +310,7 @@ const menu = [
     fullPrice: "₹25 (single scoop)",
     img: "https://images.herzindagi.info/image/2020/Apr/butterscotch-ice-cream-recipe-two.jpg",
   },
-  {
-    id: 38,
-    title: "soup",
-    category: "Beverages",
-    fullPrice: "₹30/- cup",
-    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
-  },
-  {
-    id: 39,
-    title: "vegetable gratin",
-    category: "Healthy Snacks",
-    fullPrice: "₹30/- ",
-    img: "https://www.lifeberrys.com/img/article/vegetable-au-gratin-1625249706-lb.jpg",
-  },
-  {
-    id: 40,
-    title: "masala oats",
-    category: "Healthy Snacks",
-    fullPrice: "₹40/- plate",
-    img: "https://www.indianveggiedelight.com/wp-content/uploads/2021/05/masala-oats.jpg",
-  },
-  {
-    id: 41,
-    title: "soup",
-    category: "Healthy Snacks",
-    fullPrice: "₹30/- cup",
-    img: "https://i5.walmartimages.com/asr/9bbcdc73-ea3a-4adf-aaef-03969ab6e8b9_1.d34824f73fdc3abacbf32423e7e987f1.jpeg",
-  },
-  {
-    id: 42,
-    title: "upma",
-    category: "Healthy Snacks",
-    fullPrice: "₹40/- plate",
-    img: "https://fthmb.tqn.com/RPjDuPB78ppY70JBor_7t2DTpdY=/2569x1945/filters:fill(auto,1)/upma-56a510633df78cf772862b9b.jpg",
-  },
+
 ];
 
 export default menu;
