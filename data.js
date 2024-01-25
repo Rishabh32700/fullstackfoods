@@ -1,18 +1,25 @@
 const menu = [
-  {
-    id: 101,
-    title: "Healthy Diet (Sprouts)",
-    category: "Beverages",
-    fullPrice: "₹50 (Full)",
-    halfPrice: "₹30 (Half)",
-    img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
-  },
+  // {
+  //   id: 101,
+  //   title: "Healthy Diet (Sprouts)",
+  //   category: "Beverages",
+  //   fullPrice: "₹50 (Full)",
+  //   halfPrice: "₹30 (Half)",
+  //   img: "https://cdn.cdnparenting.com/articles/2020/03/27114722/Sprouted-Moong-Chaat-Recipe-for-Babies.jpg",
+  // },
   {
     id: 100,
     title: "masala Chai",
     category: "Beverages",
     fullPrice: "₹15/cup",
     img: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
+  },
+  {
+    id: 101,
+    title: "hot coffee",
+    category: "Beverages",
+    fullPrice: "₹30/cup",
+    img: "https://getwallpapers.com/wallpaper/full/a/8/4/1040113-free-coffee-cup-wallpaper-2560x1600-for-ipad.jpg",
   },
   // lunch starts here
   {
