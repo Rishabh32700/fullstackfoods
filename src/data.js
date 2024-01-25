@@ -14,6 +14,13 @@ const menu = [
     fullPrice: "₹15/cup",
     img: "https://carameltintedlife.com/wp-content/uploads/2021/01/Masala-Chai-.jpg",
   },
+  {
+    id: 100,
+    title: "hot coffee",
+    category: "Beverages",
+    fullPrice: "₹30/cup",
+    img: "https://getwallpapers.com/wallpaper/full/a/8/4/1040113-free-coffee-cup-wallpaper-2560x1600-for-ipad.jpg",
+  },
   // lunch starts here
   {
     id: 44,
