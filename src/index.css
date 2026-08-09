@@ -116,13 +116,81 @@ p {
 }
 
 /*
-=============== 
+===============
+Hero
+===============
+*/
+.hero {
+  padding: 4rem 1rem 2.5rem;
+  text-align: center;
+  background: radial-gradient(
+    circle at top,
+    rgba(197, 170, 95, 0.1),
+    transparent 60%
+  );
+  border-bottom: 1px solid rgba(197, 170, 95, 0.15);
+}
+.hero-content h1 {
+  margin-bottom: 0.5rem;
+}
+.hero-tagline {
+  color: var(--clr-gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  margin-bottom: 1.25rem;
+}
+.hero-phone {
+  display: inline-block;
+  color: var(--clr-grey-1);
+  border: 1px solid var(--clr-gold);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+}
+.hero-phone:hover {
+  background: var(--clr-gold);
+  color: #121212;
+}
+
+/*
+===============
+Search
+===============
+*/
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1.25rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(197, 170, 95, 0.3);
+  background: rgb(23, 23, 23);
+  color: var(--clr-grey-1);
+  font-size: 1rem;
+  transition: var(--transition);
+}
+.search-input:focus {
+  border-color: var(--clr-gold);
+  box-shadow: 0 0 0 3px rgba(197, 170, 95, 0.15);
+}
+.search-input::placeholder {
+  color: var(--clr-grey-5);
+}
+
+/*
+===============
 Menu
 ===============
 */
 
 .menu {
-  padding: 5rem 0;
+  padding: 3rem 0 5rem;
 }
 .title {
   text-align: center;
@@ -145,28 +213,25 @@ Menu
 }
 .filter-btn {
   background: transparent;
-  border-color: transparent;
-  font-size: 1rem;
+  border: 1px solid rgba(197, 170, 95, 0.3);
+  font-size: 0.95rem;
   text-transform: capitalize;
-  margin: 0 0.5rem;
+  margin: 0 0.4rem;
   letter-spacing: 1px;
-  padding: 0.375rem 0.75rem;
+  padding: 0.45rem 1.1rem;
   color: var(--clr-gold);
   cursor: pointer;
   transition: var(--transition);
-  border-radius: var(--radius);
+  border-radius: 2rem;
+  flex: 0 0 auto;
 }
 .filter-btn:hover,
 .filter-btn.active {
-  color: var(--clr-gold);
-  backdrop-filter: blur(5px);
-  background-color: rgb(23, 23, 23);
-  box-shadow: 5px 5px 30px 0px rgba(0, 0, 0, 0.5),
-    inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6),
-    inset 0px 11px 28px 0px rgb(29, 29, 29);
-  border: none;
+  color: #121212;
+  background-color: var(--clr-gold);
+  box-shadow: 0 5px 20px rgba(197, 170, 95, 0.3);
+  border-color: var(--clr-gold);
   outline: none;
-  border-bottom: 1px solid red;
 }
 .section-center {
   width: 90vw;
@@ -181,6 +246,11 @@ Menu
   gap: 1rem 2rem;
   max-width: 25rem;
   width: 100%;
+  border-radius: var(--radius);
+  transition: transform 0.3s ease;
+}
+.menu-item:hover {
+  transform: translateY(-6px);
 }
 .photo {
   object-fit: cover;
@@ -194,6 +264,11 @@ Menu
   box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.5),
     inset -8px -8px 16px 0px rgba(0, 0, 0, 0.6),
     inset 0px 11px 28px 0px rgb(29, 29, 29);
+  transition: box-shadow 0.3s ease;
+}
+.menu-item:hover .photo {
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(197, 170, 95, 0.35);
 }
 
 .item-info {
@@ -211,14 +286,14 @@ Menu
     inset 0px 11px 28px 0px rgb(29, 29, 29);
   padding: 0.5rem 1rem;
   border: none;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid rgba(197, 170, 95, 0.4);
 }
 
-.item-info header div {
+.price-row {
   width: 100%;
   display: flex;
-
   justify-content: space-around;
+  gap: 0.5rem;
 }
 
 .item-info h4 {
@@ -226,10 +301,95 @@ Menu
 }
 .price {
   color: var(--clr-gold);
+  cursor: pointer;
+  padding: 0.15rem 0.6rem;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  transition: var(--transition);
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.875rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+@media screen and (min-width: 800px) {
+  .price {
+    font-size: 1rem;
+  }
+}
+.price-selected {
+  background: rgba(197, 170, 95, 0.15);
+  border-color: var(--clr-gold);
 }
 .item-text {
   margin-bottom: 0;
   padding-top: 1rem;
+}
+
+/*
+===============
+Order controls
+===============
+*/
+.order-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem 0;
+}
+.qty-stepper {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgb(23, 23, 23);
+  border-radius: 2rem;
+  padding: 0.3rem 0.6rem;
+}
+.qty-stepper button {
+  background: transparent;
+  border: 1px solid var(--clr-gold);
+  color: var(--clr-gold);
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: var(--transition);
+}
+.qty-stepper button:hover {
+  background: var(--clr-gold);
+  color: #121212;
+}
+.qty-stepper span {
+  min-width: 1.25rem;
+  text-align: center;
+  color: var(--clr-grey-1);
+}
+.whatsapp-btn {
+  background: #25d366;
+  color: #0b1a10;
+  border: none;
+  padding: 0.55rem 1.1rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+}
+.whatsapp-btn:hover {
+  background: #1ebe5b;
+  transform: scale(1.03);
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--clr-grey-5);
+  padding: 2rem 0;
+  grid-column: 1 / -1;
 }
 
 @media screen and (min-width: 768px) {
